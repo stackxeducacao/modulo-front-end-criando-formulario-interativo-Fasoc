@@ -1,0 +1,63 @@
+        /* Estilo do corpo da página */
+        body {
+            /* Fonte do texto */
+            font-family: Arial, 'Times New Roman', Times, serif;
+            /* Margem ao redor do corpo */
+            margin: 20px; 
+            /* Preenchimento interno do corpo */
+            padding: 20px;
+            background-color: #f4f4f4; /* Cor de fundo da página */
+        }
+        /* Estilo do formulário */
+        form {
+            /* Cor de fundo do formulário */
+            background: white; 
+            /* Preenchimento interno do formulário */
+            padding: 20px; 
+            /* Bordas arredondadas do formulário */
+            border-radius: 5px; 
+            /* Sombra ao redor do formulário */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Estilo dos rótulos */
+        label {
+            /* Localização do rótulo */
+            display:inline; 
+            /* Espaço abaixo do rótulo */
+            margin-bottom: 8px; 
+        }
+        /* Estilo para os campos de entrada */
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            /* Largura total dos campos */
+            width: 100%;
+            /* Preenchimento interno dos campos */
+            padding: 10px; 
+            /* Espaço abaixo dos campos */
+            margin-bottom: 15px; 
+            /* Borda ao redor dos campos */
+            border: 1px solid #ccc; 
+            /* Bordas dos campos */
+            border-radius: 4px; 
+        }
+        /* Estilo do botão de envio */
+        input[type="submit"] {
+            /* Cor de fundo verde do botão */
+            background-color: #28a745; 
+            /* Cor do texto do botão */
+            color: white; 
+            /* Preenchimento interno do botão */
+            padding: 10px 15px; 
+            /* Remove a borda do botão */
+            border: none; 
+            /* Bordas arredondadas do botão */
+            border-radius: 4px; 
+            /* Muda o cursor ao passar sobre o botão */
+            cursor: pointer; 
+        }
+        /* Estilo do botão ao passar o mouse */
+        input[type="submit"]:hover {
+            /* Cor de fundo verde mais escuro ao passar o mouse */
+            background-color: #218838; 
+        }
