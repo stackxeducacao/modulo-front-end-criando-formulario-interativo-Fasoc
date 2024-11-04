@@ -3,48 +3,37 @@
             /* Fonte do texto */
             font-family: Arial, 'Times New Roman', Times, serif;
             /* Margem ao redor do corpo */
-            margin: 30px;
+            margin: 25px;
             /* Preenchimento interno do corpo */
-            padding: 20px;
+            padding: 10px;
             /* Cor de fundo da página */
             background-color: #4481b9;
         }
 
         h1{
             /* Fonte do título */
-            font-family:Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             /* Tamanho da fonte do titulo */
             font-size: 100px;
             /* Alinhamento centralizado do titulo */
             text-align:center;
+            /* Cor do texto */
             color:rgb(0, 0, 0);
         }
 
-        .form-container {
-            /* Usando flexbox */
-            display: flex; 
-            /* Alinhar os itens */
-            align-items: flex-start; 
-        }
-
         form {
-            /* O formulário vai ocupar espaço disponível */
-            flex:1;
             /* Cor de fundo do formulário */
             background: rgb(151, 88, 88);
             /* Preenchimento interno do formulário */
             padding: 30px;
             /* Bordas arredondadas do formulário */
             border-radius: 50px;
-            /* Expaço entre formulário e imagem */
-            margin-right: 20px;
-        }
-
-        img {
-            /* Limita a largura da imagem */
-            max-width: 200px; 
-            /* Mantém a proporção da imagem */
-            height: auto; 
+            /* Permite a posição dos elementos no formulário */
+            position:relative;
+            /* Define uma largura máxima para o formulário */
+            max-width: 800px; 
+            /* Margens automáticas para centralizar */
+            margin: 0 auto; 
         }
 
         label {
@@ -62,9 +51,9 @@
         input[type="email"],
         input[type="number"] {
             /* Tamanho da letra */
-            font-size: larger;
+            font-size: 20px;
             /* Largura total dos campos */
-            width: 50%;
+            width: 95%;
             /* Preenchimento interno dos campos */
             padding: 10px;
             /* Espaço abaixo dos campos */
@@ -84,13 +73,17 @@
             padding: 10px 15px;
             /* Bordas arredondadas do botão */
             border-radius: 10px;
-            /* Muda o cursor ao passar sobre o botão */
+            /* Muda o cursor ao passar no botão */
             cursor: pointer;
+            /* Transforma o botão em um um bloco */
+            display: block; 
+            /* Largura do botão */
+            width: 20%; 
+            /* Centraliza o botão */
+            margin: 0 auto; 
         }
         /* Estilo do botão ao passar o mouse */
         input[type="submit"]:hover {
             /* Cor de fundo verde mais escuro ao passar o mouse */
             background-color: #218838;
         }
-
-
